@@ -4,7 +4,7 @@ var _numX=3;
 var _numY=3;        // dimensions of grid
 
 function setup() { 
-  createCanvas(400, 400);
+  createCanvas(600, 600);
     frameRate(10);
   _numX = floor(width/_cellSize);
   _numY = floor(height/_cellSize);

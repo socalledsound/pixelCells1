@@ -49,9 +49,10 @@ var Cell = function(x,y,cellSize) {
          this.state = this.nextState;
         stroke(0);
         fill(this.state,this.state*random(3),this.state*(random(5)),random(200));  
-          fill(this.state/random(10),this.state/random(20),this.state*(random(5)),random(200));  
+          fill(this.state/random(30),this.state/random(60),this.state*(random(20)),random(20));  
         //ellipse(this.x, this.y, this.cellSize, this.cellSize);
         // ellipse(this.x, this.y, this.cellSize*this.state/random(100)/random(40), this.cellSize*this.state/random(100)/random(40));
          rect(this.x, this.y, this.cellSize*this.state/xShrink, this.cellSize*this.state);
+         // rect(this.x*3, this.y*3, this.cellSize*this.state/xShrink, this.cellSize*this.state);
      }
 }

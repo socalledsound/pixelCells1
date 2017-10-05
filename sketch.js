@@ -1,13 +1,13 @@
 var _cellArray=[];     // two dimensional array of cells
-var _cellSize = 4;      // size of each cell
+var _cellSize = 8;      // size of each cell
 var _numX=3;
 var _numY=3;        // dimensions of grid
 
 function setup() { 
-  createCanvas(600, 600);
+  createCanvas(800, 800);
     frameRate(10);
-  _numX = floor(width/_cellSize);
-  _numY = floor(height/_cellSize);
+  _numX = floor(width/(_cellSize));
+  _numY = floor(height/(_cellSize));
     
 _cellArray = Array(_numX);    
     
